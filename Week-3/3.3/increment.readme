@@ -1,0 +1,7 @@
+Here the output will be 0.
+
+This is because the message variable is set only once at the starting of the call when the value of the count variable is 0.
+Althought the count varible gets incremented everytime the increment() fucnction is called but the message variable is not 
+updated according to the count variable hence we get this output. 
+
+To solve this we just need make sure the message variable gets updated with every call of the increment function.

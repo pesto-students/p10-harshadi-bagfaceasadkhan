@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square > div {
+  width: 50%;
+  height: 50%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.square:hover > .top-left {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+.square:hover > .top-right {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+.square:hover > .bottom-left {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+}
+.square:hover > .bottom-right {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+.top-left {
+  background-color: red;
+}
+
+.top-right {
+  background-color: yellow;
+}
+
+.bottom-left {
+  background-color: blue;
+}
+
+.bottom-right {
+  background-color: green;
+}

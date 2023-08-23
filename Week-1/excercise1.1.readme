@@ -1,0 +1,38 @@
+Question 1 : How Does a Browser Fetch a URL?
+
+When a user enters a URL in the browser, the browser follows a series of steps to fetch the desired result:
+
+1.The browser parses the URL entered by the user to identify the protocol, hostname, and path of the requested resource.
+
+2.The browser checks its cache to see if it has a cached copy of the requested resource. If it does, it can serve the resource directly from the cache without needing to fetch it from the server.
+
+3.If the resource is not in the cache, the browser sends a request to the server using the appropriate protocol (e.g. HTTP or HTTPS). The request includes the hostname, path, and any additional information required by the server to process the request.
+
+4.The server receives the request and sends a response back to the browser. The response includes a status code (indicating whether the request was successful or not), headers (providing additional information about the response), and a message body (containing the requested resource).
+
+5.The browser receives the response from the server and uses its rendering engine to parse the HTML, CSS, and JavaScript code in the message body to create a visual representation of the webpage.
+
+6.The browser may also execute any JavaScript code included in the response to create dynamic content or respond to user input.
+
+Once the webpage is fully loaded and rendered, the browser displays it to the user in the window or tab.
+
+
+
+Question 2 : 
+
+
+a. The main functionality of a browser is to provide a user interface for accessing web pages and other internet resources. It acts as a mediator between the user and the internet, handling requests for resources and displaying them in a visually appealing way.
+
+b. The high-level components of a browser include the user interface, rendering engine, networking layer, and JavaScript engine. The user interface is what the user interacts with, such as the address bar and tabs. The rendering engine is responsible for displaying the content on the screen, while the networking layer handles requests and responses between the browser and the server. The JavaScript engine executes code and interacts with the rendering engine and networking layer.
+
+c. The rendering engine is responsible for parsing HTML, CSS, and JavaScript code and displaying it on the screen. The most common rendering engines are WebKit, used by Safari and Chrome, and Gecko, used by Firefox. These rendering engines use complex algorithms to interpret the code and create a visual representation of the webpage.
+
+d. Parsers are responsible for reading and interpreting code written in HTML, CSS, and other languages. They break the code down into its component parts and convert it into a format that can be displayed by the browser. For example, an HTML parser would read the code and identify tags, attributes, and content.
+
+e. Script processors, or JavaScript engines, are responsible for executing JavaScript code on a webpage. They interpret the code and interact with the rendering engine and networking layer to create dynamic content and respond to user input.
+
+f. Tree construction involves taking the parsed HTML code and converting it into a tree-like structure known as the Document Object Model (DOM). Each element in the tree represents a part of the webpage, and the tree can be manipulated using JavaScript to create dynamic content.
+
+g. The order of script processing is important because scripts can affect the rendering and layout of a webpage. Scripts that are loaded asynchronously or defer execution until after the page has loaded can help improve page load times and prevent blocking.
+
+h. Layout and painting are the final steps in the rendering process. Layout involves positioning the elements on the page and determining their size, while painting involves filling in the colors and textures of the elements. These steps are important for creating a visually appealing webpage that is easy to use.
